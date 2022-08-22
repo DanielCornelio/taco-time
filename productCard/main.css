@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  background: #24c6dc; /* fallback for old browsers */
+  background: linear-gradient(to top,#514a9d,#24c6dc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-background{
+    border-radius: 8px 8px 0 0;
+    height: 180px;
+    width: 100%;
+    background-color: lightcoral;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.heart{
+    font-size: 18px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+.heart:hover{
+    color: #24c6dc;
+    -webkit-text-stroke: 1px #24c6dc;
+    cursor: pointer;
+}
+.like{
+    color: #24c6dc;
+    -webkit-text-stroke: 1px #24c6dc; 
+}
+.card-img{
+  width: 175px;
+  height: 175px;
+  position: relative;
+  top:-33%;
+  margin: 0 auto;  
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-info{
+    padding: 15px;
+    position: relative;
+    top:-33%
+}
+.card-info__description{
+    margin: 10px 0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.card-info__price{
+    font-size: 30px;
+    font-weight: 700;
+}
+.card-info__add{
+    padding: 8px;
+    border: 0;
+    border-radius: 7px;
+    border: 2px solid lightcoral;
+    background-color: transparent;    
+}
+.card-info__add:hover{
+    background-color: lightcoral; 
+    color: #fff; 
+    cursor: pointer;  
+
+}
+
+

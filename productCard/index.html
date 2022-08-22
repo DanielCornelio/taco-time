@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-background">
+        <span class="heart" id="heart" onclick="like()">&#x2764</span>
+      </div>
+      <div class="card-img">
+        <img src="./asset/img/chopper.png" alt="chooper" />
+      </div>
+      <div class="card-info">
+        <h2 class="card-info__title">Tonny Tonny Chopper!</h2>
+        <p class="card-info__description">
+          Funko pop de One Piece del Dr. Chopper!
+        </p>
+
+        <footer>
+          <p class="card-info__price">$ 600</p>
+          <button class="card-info__add">Add to cart</button>
+        </footer>
+      </div>
+    </div>
+    <script>
+        const like = ()=>{
+            const heart = document.getElementById('heart');
+            heart.classList.toggle("like")
+        }
+    </script>
+  </body>
+</html>

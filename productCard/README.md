@@ -1,0 +1,10 @@
+# Reto 1: Tarjeta de Producto
+
+Crear una tarjeta de producto la cual debe contener los siguientes elementos
+
+- Imagen del producto.
+- Nombre del producto.
+- Descripción del producto.
+- Precio del producto.
+- Boton "add to cart"
+

@@ -9,3 +9,5 @@ Crear una tarjeta de producto la cual debe contener los siguientes elementos
 - Boton "add to cart"
 
 url: *[Product Card](https://productcard-tacotime.netlify.app/)*
+
+![Preview](./asset/img/card.png)
